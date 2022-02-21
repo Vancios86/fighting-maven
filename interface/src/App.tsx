@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './Components/Header/Header';
 
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
    <div className="app">
-     Fighting Maven!!!
+     <Header />
+     <div className='title'>Fighting Maven!!!</div>
+     
    </div>
   );
 }

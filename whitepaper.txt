@@ -5,12 +5,15 @@ Other organizations like OneFC or boxing matches might be considered for additio
 
 Rules:
 To register the user needs to submit his name and email address. A confirmation link to check the email's authenticity will be sent to the user's email address.
-Once registered the user will be automatically added to the "global leaderboard", where he will start gaining points based on the accuracy of he's/she's predictions. The user can be invited to join another leaderboard or create he's own private leaderboard, where he can invite he's friends or whoever he desires to compete between them. Even if a user is part of a private leaderboard, he's results will still appear on the global leaderboard. 
+Once registered the user will be automatically added to the "global leaderboard", where he will start gaining points based on the accuracy of he's/she's predictions. 
+The user can be invited to join another leaderboard or create he's own private leaderboard, where he can invite he's friends or whoever he desires to compete between them. 
+Even if a user is part of a private leaderboard, he's results will still appear on the global leaderboard. 
 The best performing players on the global leaderboard will be rewarded with prizes(maybe:top 3 in the first year, to be extended to top 10 in the year to follow).
 
 Points system:
 Fighting-Maven will only track the fights from the UFC main-card(normally 4 or 5 fights per event).
 The user will first choose the fighter he thinks is favorite to win. For the correct prediction the user will be rewarded with 10 points.
-The user will then choose the way the victory will be obtained out of 3 possibilities: by KO, by Submission or by Points after the judges score. If the user's prediction was correct he will be awarded another 5 points.
+The user will then choose the way the victory will be obtained out of 3 possibilities: by KO, by Submission or by Points after the judges score. 
+If the user's prediction was correct he will be awarded another 5 points.
 In the rare cases when a fight finishes as a draw, the users will be awarded 5 points. 
 

@@ -42,4 +42,19 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+@media screen and (max-width: 444px) {
+  .header {
+    height: 99px;
+  }
+  .logo {
+    height: 88px;
+    width: 88px;
+  }
+  li {
+    font-weight: 500;
+    font-size: large;
+    margin-right: 0.66rem;
+  }
+}
 /*# sourceMappingURL=Header.css.map */

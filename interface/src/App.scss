@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 .app {
+    * {
+        font-family: 'Prompt', sans-serif;
+    }
     .title {
         display: flex;
         justify-content: center;

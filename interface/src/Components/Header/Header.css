@@ -1,5 +1,6 @@
 .header {
-  background-color: red;
+  background-color: var(--corsa-red);
+  color: var(--yellow);
   width: 100%;
   height: 120px;
   border-bottom: 2px solid black;

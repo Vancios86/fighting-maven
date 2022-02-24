@@ -1,45 +1,97 @@
 .main-display {
-    width: 100vw;
-    height: 96vh;
-    border: 1px solid red;
+  color: var(--dark-blue);
+  width: 100vw;
+  height: 160vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .next-event {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    .next-event {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 88vw;
-        max-width: 999px;
-        height: 45vh;
-        max-height: 666px;
-        .next-event-container { 
-            border: 1px solid green;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    width: 88vw;
+    max-width: 999px;
+    height: 67vh;
+    max-height: 666px;
+    min-height: 333px;
+    .next-event-container {
+      background-color: var(--light);
+      border: 1px solid var(--light-blue);
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        'main-event main-event main-event'
+        'co-main-event co-main-event .'
+        'fight1 fight2 fight3';
+      .main-event {
+        background-color: var(--corsa-red);
+        grid-area: main-event;
+      }
+      .co-main-event {
+        background-color: var(--dark-blue);
+        grid-area: co-main-event;
+      }
+      .fight1 {
+        background-color: var(--light-blue);
+        grid-area: fight1;
+      }
+      .fight2 {
+        background-color: var(--pine-green);
+        grid-area: fight2;
+      }
+      .fight3 {
+        background-color: var(--yellow);
+        grid-area: fight3;
+      }
     }
-    .previous-event {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        width: 88vw;
-        max-width: 999px;
-        height: 45vh;
-        max-height: 666px;
-        .previous-event-container { 
-            border: 1px solid blueviolet;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  }
+  .previous-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 88vw;
+    max-width: 999px;
+    height: 67vh;
+    max-height: 666px;
+    min-height: 333px;
+    .previous-event-container {
+      background-color: var(--light);
+      border: 1px solid var(--pine-green);
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        'main-event main-event main-event'
+        'co-main-event co-main-event .'
+        'fight1 fight2 fight3';
+      .main-event {
+        background-color: var(--corsa-red);
+        grid-area: main-event;
+      }
+      .co-main-event {
+        background-color: var(--dark-blue);
+        grid-area: co-main-event;
+      }
+      .fight1 {
+        background-color: var(--light-blue);
+        grid-area: fight1;
+      }
+      .fight2 {
+        background-color: var(--pine-green);
+        grid-area: fight2;
+      }
+      .fight3 {
+        background-color: var(--yellow);
+        grid-area: fight3;
+      }
     }
+  }
 }

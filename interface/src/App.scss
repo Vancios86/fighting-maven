@@ -3,15 +3,14 @@
 .app {
     * {
         font-family: 'Prompt', sans-serif;
+        --corsa-red: #D00000;
+        --light-red: #EF233C;
+        --yellow: #FFBA08;
+        --light: #EDF2F4;
+        --blue: #3F88C5;
+        --light-blue: #8D99AE;
+        --dark-blue: #2B2D42;
+        --pine-green: #136F63;
     }
-    .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: blanchedalmond;
-        width: 100%;
-        height: 100vh;
-        font-size: xx-large;
-        font-weight: bold;
-    }
+    
 }

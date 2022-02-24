@@ -1,7 +1,7 @@
 .main-display {
+  color: var(--dark-blue);
   width: 100vw;
-  height: 96vh;
-  border: 1px solid red;
+  height: 160vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,9 +12,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-display .next-event {
@@ -33,23 +33,60 @@
           justify-content: flex-start;
   width: 88vw;
   max-width: 999px;
-  height: 45vh;
+  height: 67vh;
   max-height: 666px;
+  min-height: 333px;
 }
 
 .main-display .next-event .next-event-container {
-  border: 1px solid green;
+  background-color: var(--light);
+  border: 1px solid var(--light-blue);
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 'main-event main-event main-event' 'co-main-event co-main-event .' 'fight1 fight2 fight3';
+}
+
+.main-display .next-event .next-event-container .main-event {
+  background-color: var(--corsa-red);
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main-event;
+}
+
+.main-display .next-event .next-event-container .co-main-event {
+  background-color: var(--dark-blue);
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: co-main-event;
+}
+
+.main-display .next-event .next-event-container .fight1 {
+  background-color: var(--light-blue);
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: fight1;
+}
+
+.main-display .next-event .next-event-container .fight2 {
+  background-color: var(--pine-green);
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: fight2;
+}
+
+.main-display .next-event .next-event-container .fight3 {
+  background-color: var(--yellow);
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: fight3;
 }
 
 .main-display .previous-event {
@@ -68,22 +105,59 @@
           justify-content: flex-start;
   width: 88vw;
   max-width: 999px;
-  height: 45vh;
+  height: 67vh;
   max-height: 666px;
+  min-height: 333px;
 }
 
 .main-display .previous-event .previous-event-container {
-  border: 1px solid blueviolet;
+  background-color: var(--light);
+  border: 1px solid var(--pine-green);
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 'main-event main-event main-event' 'co-main-event co-main-event .' 'fight1 fight2 fight3';
+}
+
+.main-display .previous-event .previous-event-container .main-event {
+  background-color: var(--corsa-red);
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main-event;
+}
+
+.main-display .previous-event .previous-event-container .co-main-event {
+  background-color: var(--dark-blue);
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: co-main-event;
+}
+
+.main-display .previous-event .previous-event-container .fight1 {
+  background-color: var(--light-blue);
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: fight1;
+}
+
+.main-display .previous-event .previous-event-container .fight2 {
+  background-color: var(--pine-green);
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: fight2;
+}
+
+.main-display .previous-event .previous-event-container .fight3 {
+  background-color: var(--yellow);
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: fight3;
 }
 /*# sourceMappingURL=Main.css.map */

@@ -5,9 +5,8 @@ const Header: React.FC = () => {
     <div className="header">
       <div className="logo"></div>
       <ul className="menu">
-        <li>Leaderboards</li>
-        <li>Events</li>
-        <li>News</li>
+        <li>Leaderboard</li>
+        <li>Fighters</li>
       </ul>
     </div>
   );

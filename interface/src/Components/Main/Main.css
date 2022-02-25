@@ -2,6 +2,7 @@
   color: var(--dark-blue);
   width: 100vw;
   height: 160vh;
+  max-height: 1500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,6 +16,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow-x: hidden;
 }
 
 .main-display .next-event {
@@ -49,7 +51,7 @@
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-areas: 'main-event main-event main-event' 'co-main-event co-main-event .' 'fight1 fight2 fight3';
+      grid-template-areas: 'main-event main-event main-event' 'co-main-event co-main-event predict' 'fight1 fight2 fight3';
 }
 
 .main-display .next-event .next-event-container .main-event {
@@ -87,6 +89,15 @@
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: fight3;
+}
+
+.main-display .next-event .next-event-container #predictButton {
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 1.33rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: predict;
 }
 
 .main-display .previous-event {

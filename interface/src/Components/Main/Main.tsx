@@ -11,6 +11,7 @@ const Main = () => {
           <div className='fight1'></div>
           <div className='fight2'></div>
           <div className='fight3'></div>
+          <button id="predictButton">PREDICT</button>
         </div>
       </div>
       <div className='previous-event'>

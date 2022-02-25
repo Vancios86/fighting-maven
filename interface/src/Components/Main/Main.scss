@@ -2,10 +2,12 @@
   color: var(--dark-blue);
   width: 100vw;
   height: 160vh;
+  max-height: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
   .next-event {
     display: flex;
     flex-direction: column;
@@ -26,7 +28,7 @@
       grid-template-rows: 1fr 1fr 1fr;
       grid-template-areas:
         'main-event main-event main-event'
-        'co-main-event co-main-event .'
+        'co-main-event co-main-event predict'
         'fight1 fight2 fight3';
       .main-event {
         background-color: var(--corsa-red);
@@ -47,6 +49,12 @@
       .fight3 {
         background-color: var(--yellow);
         grid-area: fight3;
+      }
+      #predictButton {
+        color: var(--yellow);
+        font-weight: 600;
+        font-size: 1.33rem;
+        grid-area: predict;
       }
     }
   }

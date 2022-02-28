@@ -37,10 +37,12 @@
   list-style: none;
 }
 
-.header .menu li {
+.header .menu li a {
+  text-decoration: none;
   margin-right: 1rem;
   font-size: larger;
   font-weight: 600;
   cursor: pointer;
+  color: var(--yellow);
 }
 /*# sourceMappingURL=Header.css.map */

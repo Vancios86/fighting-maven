@@ -20,11 +20,13 @@
         justify-content: flex-end;
         align-items: center;
         list-style: none;
-        li {
+        li a {
+            text-decoration: none;
             margin-right: 1rem;
             font-size: larger;
             font-weight: 600;
             cursor: pointer;
+            color: var(--yellow);
         }
     }
 }

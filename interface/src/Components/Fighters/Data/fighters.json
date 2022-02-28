@@ -1,0 +1,40 @@
+{
+  "fighters": [
+    {
+      "firstName": "Conor",
+      "lastName": "McGregor",
+      "nickname": "The Notorious",
+      "age": 33,
+      "height": "1.77m",
+      "weight": "70kg",
+      "reach": "183cm"
+    },
+    {
+      "firstName": "Dustin",
+      "lastName": "Poirier",
+      "nickname": "The Diamond",
+      "age": 32,
+      "height": "1.74m",
+      "weight": "70kg",
+      "reach": "173cm"
+    },
+    {
+      "firstName": "Israel",
+      "lastName": "Adesanya",
+      "nickname": "The Stylebender",
+      "age": 33,
+      "height": "1.91m",
+      "weight": "80kg",
+      "reach": "199cm"
+    },
+    {
+      "firstName": "Nate",
+      "lastName": "Diaz",
+      "nickname": "",
+      "age": 36,
+      "height": "1.83m",
+      "weight": "77kg",
+      "reach": "193cm"
+    }
+  ]
+}

@@ -1,10 +1,7 @@
-import Header from "../Header/Header";
-
 const Fighters: React.FC = () => {
         return (
             <div>
-                <Header />
-                <h1>fighters</h1>
+                <h1>fighters from Ukraine</h1>
             </div>
         )
     

@@ -6,6 +6,7 @@ const Header: React.FC = () => {
     <div className='header'>
       <div className='logo'></div>
       <ul className='menu'>
+        
         <li>
           <Link to='/'>Home</Link>
         </li>

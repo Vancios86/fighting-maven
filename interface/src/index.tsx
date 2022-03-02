@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-import Fighters from "./Components/Fighters/Fighters"
+import './index.css';
+
+import App from './App';
+import Fighters from './Components/Fighters/Fighters';
+import Leaderboard from './Components/Leaderboard/Leaderboard'
 
 //import reportWebVitals from './reportWebVitals';
 
@@ -12,8 +14,21 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='fighters' element={<Fighters />} />
+        <Route path='/' element={<App />}>
+          <Route path='fighters' element={<Fighters />} />
+          <Route path='leaderboard' element={<Leaderboard />} />
+        </Route>
+        <Route
+          path='*'
+          element={
+            <div className='gotLost'>
+              <h4>There's nothing here!</h4>
+              <button>
+                <Link to='/'>Go Home</Link>
+              </button>
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

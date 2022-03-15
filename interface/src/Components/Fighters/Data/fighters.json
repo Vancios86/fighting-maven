@@ -30,7 +30,7 @@
     {
       "firstName": "Nate",
       "lastName": "Diaz",
-      "nickname": "",
+      "nickname": "The Weeder",
       "age": 36,
       "height": "1.83m",
       "weight": "77kg",
@@ -38,3 +38,4 @@
     }
   ]
 }
+

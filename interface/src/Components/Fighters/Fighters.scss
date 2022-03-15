@@ -1,0 +1,30 @@
+.fighters-area {
+  width: 100vw;
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding-top: 3rem;
+}
+
+.fighters-grid {
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+.fighter-container {
+    border: 2px solid black;
+    background-color: var(--yellow);
+    width: 330px;
+    height: 390px;
+    padding: 0 0.5rem 1.2rem 0.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }

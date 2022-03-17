@@ -1,9 +1,11 @@
 import './Fighters.css';
 import data from '../Data/fighters.json';
 
+import Fight from '../Fight/Fight';
+
 const Fighters: React.FC = () => {
- 
   return (
+    <>
     <div className='fighters-area'>
       <div className='fighters-grid'>
         {data.fighters.map((fighter, key) => {
@@ -28,6 +30,10 @@ const Fighters: React.FC = () => {
         })}
       </div>
     </div>
+
+    <Fight />
+    
+    </>
   );
 };
 

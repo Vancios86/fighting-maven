@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
 
 import App from './App';
-import Fighters from './Components/FightingArea/Fighters';
+import Fighters from './Components/FightingArea/Fighters/Fighters';
 import Leaderboard from './Components/Leaderboard/Leaderboard'
 
 //import reportWebVitals from './reportWebVitals';

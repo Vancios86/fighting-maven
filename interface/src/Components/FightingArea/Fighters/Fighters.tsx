@@ -1,5 +1,5 @@
 import './Fighters.css';
-import data from './Data/fighters.json';
+import data from '../Data/fighters.json';
 
 const Fighters: React.FC = () => {
  

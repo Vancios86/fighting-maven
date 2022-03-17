@@ -7,7 +7,8 @@
       "age": 33,
       "height": "1.77m",
       "weight": "70kg",
-      "reach": "183cm"
+      "reach": "183cm",
+      "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/MCGREGOR_CONOR_L_07-10.png?itok=YawQ2Dce)"
     },
     {
       "firstName": "Dustin",
@@ -16,7 +17,8 @@
       "age": 32,
       "height": "1.74m",
       "weight": "70kg",
-      "reach": "173cm"
+      "reach": "173cm",
+      "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/67863%252Fprofile-galery%252Ffullbodyleft-picture%252FPOIRIER_DUSTIN_L_07-10.png?itok=6TNCSFgG)"
     },
     {
       "firstName": "Israel",
@@ -25,7 +27,8 @@
       "age": 33,
       "height": "1.91m",
       "weight": "80kg",
-      "reach": "199cm"
+      "reach": "199cm",
+      "photo": "url(https://premiumsports.ca/wp-content/uploads/2020/01/Adesanya.png)"
     },
     {
       "firstName": "Nate",
@@ -34,7 +37,28 @@
       "age": 36,
       "height": "1.83m",
       "weight": "77kg",
-      "reach": "193cm"
+      "reach": "193cm",
+      "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-06/DIAZ_NATE_L_06-12.png?itok=cprurudS)"
+    },
+    {
+      "firstName": "Kamaru",
+      "lastName": "Usman",
+      "nickname": "The Nigerian Nightmare",
+      "age": 34,
+      "height": "1.83m",
+      "weight": "76kg",
+      "reach": "190cm",
+      "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-04/68441%252Fprofile-galery%252Ffullbodyleft-picture%252FUSMAN_KAMARU_L_BELT_04-24.png?VersionId=null&itok=bxrB7fUK)"
+    },
+    {
+      "firstName": "Francis",
+      "lastName": "Ngannou",
+      "nickname": "The Predator",
+      "age": 36,
+      "height": "1.93m",
+      "weight": "116kg",
+      "reach": "202cm",
+      "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-01/3d75a594-27a1-4c19-875a-8d7d4dc17b42%252FNGANNOU_FRANCIS_L_BELT_01-22.png?itok=HG2w_Plm)"
     }
   ]
 }

@@ -1,4 +1,6 @@
-//import Fighters from "../Fighters/Fighters";
+import Fighters from "../Fighters/Fighters";
+
+console.log({Fighters})
 
 
 const Fight = () => {

@@ -1,0 +1,24 @@
+.fight-container {
+    width: 88%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    .fighter1-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid red;
+        width: 50%;
+        height: 100%;
+    }
+    .fighter2-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid red;
+        width: 50%;
+        height: 100%;
+    }
+}

@@ -1,7 +1,7 @@
 import './Fighters.css';
 import data from '../Data/fighters.json';
 
-import Fight from '../Fight/Fight';
+import Fight from '../Fight/Fight2';
 
 const Fighters: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const Fighters: React.FC = () => {
           return (
             <div key={key} className='fighter-container' style={background}>
               <h2>
-                {fighter.firstName} {fighter.lastName}
+                {fighter.name}
               </h2>
               <h3>"{fighter.nickname}"</h3>
               <h3>age: {fighter.age}</h3>

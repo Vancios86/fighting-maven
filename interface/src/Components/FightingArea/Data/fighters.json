@@ -1,8 +1,7 @@
 {
   "fighters": [
     {
-      "firstName": "Conor",
-      "lastName": "McGregor",
+      "name": "Conor McGregor",
       "nickname": "The Notorious",
       "age": 33,
       "height": "1.77m",
@@ -11,8 +10,7 @@
       "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/MCGREGOR_CONOR_L_07-10.png?itok=YawQ2Dce)"
     },
     {
-      "firstName": "Dustin",
-      "lastName": "Poirier",
+      "name": "Dustin Poirier",
       "nickname": "The Diamond",
       "age": 32,
       "height": "1.74m",
@@ -21,8 +19,7 @@
       "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-07/67863%252Fprofile-galery%252Ffullbodyleft-picture%252FPOIRIER_DUSTIN_L_07-10.png?itok=6TNCSFgG)"
     },
     {
-      "firstName": "Israel",
-      "lastName": "Adesanya",
+      "name": "Israel Adesanya",
       "nickname": "The Stylebender",
       "age": 33,
       "height": "1.91m",
@@ -31,8 +28,7 @@
       "photo": "url(https://premiumsports.ca/wp-content/uploads/2020/01/Adesanya.png)"
     },
     {
-      "firstName": "Nate",
-      "lastName": "Diaz",
+      "name": "Nate Diaz",
       "nickname": "The Weeder",
       "age": 36,
       "height": "1.83m",
@@ -41,8 +37,7 @@
       "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-06/DIAZ_NATE_L_06-12.png?itok=cprurudS)"
     },
     {
-      "firstName": "Kamaru",
-      "lastName": "Usman",
+      "name": "Kamaru Usman",
       "nickname": "The Nigerian Nightmare",
       "age": 34,
       "height": "1.83m",
@@ -51,8 +46,7 @@
       "photo": "url(https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-04/68441%252Fprofile-galery%252Ffullbodyleft-picture%252FUSMAN_KAMARU_L_BELT_04-24.png?VersionId=null&itok=bxrB7fUK)"
     },
     {
-      "firstName": "Francis",
-      "lastName": "Ngannou",
+      "name": "Francis Ngannou",
       "nickname": "The Predator",
       "age": 36,
       "height": "1.93m",
